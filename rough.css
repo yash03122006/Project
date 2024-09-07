@@ -1,0 +1,19 @@
+ .container{
+  display: grid;
+  grid-template-columns: ;
+  gap: 10px;
+ 
+
+}
+
+.card{
+
+  border: 3px dotted grey;
+  background-color: blueviolet;
+}
+@media screen and (max-width :768px) {
+  .container{
+    flex-direction: column;
+  }
+  
+} 
